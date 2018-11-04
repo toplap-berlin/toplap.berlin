@@ -1,47 +1,22 @@
 module.exports = {
-  siteMetadata: {
-    title: 'TopLap Berlin',
-  },
-  plugins: [
-    'gatsby-plugin-react-helmet',
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'images',
-        path: `${__dirname}/src/images/`,
-      },
+    siteMetadata: {
+        title: 'TopLap Berlin',
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/content/posts/`,
-        name: 'posts',
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/content/pages/`,
-        name: 'pages',
-      },
-    },
-    {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [
-          'gatsby-plugin-sharp',
-          {
-            resolve: 'gatsby-remark-images',
+    plugins: [
+        'gatsby-plugin-react-helmet',
+        {
+            resolve: `gatsby-plugin-manifest`,
             options: {
-              maxWidth: 800,
-              backgroundColor: 'transparent',
+                name: 'gatsby-starter-default',
+                short_name: 'starter',
+                start_url: '/',
+                background_color: '#663399',
+                theme_color: '#663399',
+                display: 'minimal-ui',
+                icon: 'src/images/toplap.svg',
             },
-          },
-          'gatsby-remark-smartypants',
-        ],
-      },
-    },
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
-  ],
+        },
+        'gatsby-plugin-sass',
+        'gatsby-plugin-offline'
+    ],
 }
