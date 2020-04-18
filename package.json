@@ -1,37 +1,93 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "dependencies": {
-    "gatsby": "^1.9.277",
-    "gatsby-image": "^1.0.55",
-    "gatsby-link": "^1.6.46",
-    "gatsby-plugin-react-helmet": "^2.0.11",
-    "gatsby-plugin-react-next": "^1.0.11",
-    "gatsby-plugin-sharp": "^1.6.48",
-    "gatsby-remark-images": "^1.5.67",
-    "gatsby-remark-smartypants": "^1.4.12",
-    "gatsby-source-filesystem": "^1.5.39",
-    "gatsby-transformer-remark": "^1.7.44",
-    "gatsby-transformer-sharp": "^1.6.27",
-    "react-helmet": "^5.2.0"
-  },
+  "name": "toplap.berlin",
+  "version": "0.0.0",
+  "description": "A starter for GatsbyJS with a preconfigured MDX, Storybook and ESLint environment",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "gatsby-starter",
+    "emotion",
+    "mdx",
+    "storybook"
   ],
+  "homepage": "https://toplap.berlin",
+  "bugs": "https://github.com/toplap-berlin/toplap.berlin/issues",
   "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "prettier": "^1.13.7"
+  "author": {
+    "name": "Toplap Berlin",
+    "email": "toplapberlin@gmail.com",
+    "url": "https://toplap.berlin"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/toplap-berlin/toplap.berlin"
+  },
+  "scripts": {
+    "start": "nps"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@mdx-js/mdx": "^1.5.8",
+    "@mdx-js/react": "^1.5.8",
+    "@open-sorcerers/breakpoints": "^0.0.2",
+    "@rebass/forms": "^4.0.6",
+    "bodypaint": "^0.0.4",
+    "emotion-theming": "^10.0.27",
+    "gatsby": "^2.20.25",
+    "gatsby-image": "^2.3.4",
+    "gatsby-plugin-emotion": "^4.2.2",
+    "gatsby-plugin-manifest": "^2.3.5",
+    "gatsby-plugin-mdx": "^1.1.9",
+    "gatsby-plugin-offline": "^3.1.4",
+    "gatsby-plugin-react-helmet": "^3.2.4",
+    "gatsby-plugin-sharp": "^2.5.6",
+    "gatsby-plugin-styled-components": "^3.2.3",
+    "gatsby-source-filesystem": "^2.2.4",
+    "gatsby-transformer-sharp": "^2.4.6",
+    "polished": "^3.5.1",
+    "prop-types": "^15.7.2",
+    "ramda": "^0.27.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0",
+    "react-uid": "^2.2.0",
+    "rebass": "^4.0.7",
+    "styled-components": "^5.1.0",
+    "styled-normalize": "^8.0.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-docs": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "@svgr/webpack": "^5.3.1",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-config-sorcerers": "^0.0.2",
+    "eslint-plugin-compat": "^3.5.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prefer-object-spread": "^1.2.1",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-ramda": "^2.5.1",
+    "eslint-plugin-react": "^7.19.0",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-react-svg": "^3.0.0",
+    "husky": ">=4",
+    "lint-staged": ">=10",
+    "micromatch": "^4.0.2",
+    "modernizr": "^3.10.0",
+    "prettier": "^2.0.4",
+    "react-markdown": "^4.3.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }

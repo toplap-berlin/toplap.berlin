@@ -1,13 +1,27 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
-const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  </div>
-)
+import { Site } from '@components/Site'
+import { Container } from '@components/Container'
+import { ToggleBreakpoints } from '@components/ToggleBreakpoints'
+import { breakpointAware } from '@hoc/breakpointAware'
+
+import Readme from '@root/README.md'
+
+const seo = {
+  title: 'Home'
+}
+
+const CC = breakpointAware(Container)
+
+const IndexPage = ({ ...other }) => {
+  return (
+    <Site seo={seo} {...other}>
+      <CC>
+        <Readme />
+        <ToggleBreakpoints />
+      </CC>
+    </Site>
+  )
+}
 
 export default IndexPage
