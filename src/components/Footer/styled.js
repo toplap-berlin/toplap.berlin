@@ -37,7 +37,7 @@ export const Left = styled.div`
     justify-content: center;
     text-align: center;
 
-    > *:first-child {
+    > *:first-of-type {
       margin-right: 8px;
     }
   }
@@ -54,7 +54,7 @@ export const Right = styled.div`
     justify-content: center;
     text-align: center;
 
-    > *:first-child {
+    > *:first-of-type {
       margin-right: 8px;
     }
   }

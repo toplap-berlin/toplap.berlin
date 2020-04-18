@@ -1,10 +1,9 @@
 module.exports = {
   siteMetadata: {
-    name: 'Foresight Gatsby Starter',
-    basepath: 'https://open.sorcerers.dev/gatsby-starter',
-    description:
-      'A starter for GatsbyJS with a preconfigured MDX, Storybook and ESLint environment',
-    keywords: ['gatsby', 'gatsbyjs', 'gatsby starter', 'github'],
+    name: 'TopLap Berlin',
+    basepath: 'https://toplap.berlin',
+    description: 'An open live-coding and AlgoRave community in Berlin',
+    keywords: ['live-code', 'berlin', 'generative art', 'computer music'],
     type: 'website',
     image: 'https://open.sorcerers.dev/logo-open-sorcerers.png'
   },
@@ -39,11 +38,11 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'TopLap Berlin',
+        short_name: 'toplap-ber',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#000000',
+        theme_color: '#6ac6e8',
         display: 'minimal-ui',
         icon: 'src/assets/logo-open-sorcerers.png' // This path is relative to the root of the site
       }

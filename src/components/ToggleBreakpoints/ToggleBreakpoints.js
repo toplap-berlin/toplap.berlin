@@ -6,7 +6,7 @@ import { Label, Checkbox } from '@rebass/forms'
 export const ToggleBreakpoints = ({ breakpointsActive, toggleBreakpoints }) => (
   <Box id="toggle-breakpoints">
     <Label>
-      <Checkbox checked={breakpointsActive} onClick={toggleBreakpoints} />
+      <Checkbox checked={breakpointsActive} onChange={toggleBreakpoints} />
       Toggle Breakpoints
     </Label>
   </Box>

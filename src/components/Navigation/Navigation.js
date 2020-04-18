@@ -15,7 +15,7 @@ const items = [
 const social = [
   {
     label: <Github />,
-    href: 'https://github.com/open-sorcerers/foresight-gatsby-starter'
+    href: 'https://github.com/toplap-berlin/toplap.berlin'
   }
 ]
 
@@ -40,21 +40,15 @@ const Navigation = ({ path }) => {
         <Inner>
           <Brand to="/">{name}</Brand>
           <Nav>
-            {items.map(({ label, to, href }) =>
-              to ? (
-                <Item key={uid(label)} to={to} isActive={to === path}>
-                  {label}
-                </Item>
-              ) : (
-                <Item key={uid(label)} as="a" href={href}>
-                  {label}
-                </Item>
-              )
-            )}
+            {items.map(({ label, to }) => (
+              <Item key={uid(label)} to={to} disabled={to === path}>
+                {label}
+              </Item>
+            ))}
           </Nav>
           <Social>
             {social.map(({ label, href }) => (
-              <Item key={uid(label)} as="a" href={href} style={{ lineHeight: 0 }}>
+              <Item key={uid(label)} to={href} style={{ lineHeight: 0 }}>
                 {label}
               </Item>
             ))}

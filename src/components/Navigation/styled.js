@@ -58,7 +58,7 @@ export const Item = styled(Link)`
   color: #fff;
   font-weight: 500;
   line-height: 24px;
-  opacity: ${(p) => (p.isActive ? '1' : '0.6')};
+  opacity: ${(p) => (p.disabled ? '0.6' : '1')};
   text-decoration: none;
 
   :hover {
