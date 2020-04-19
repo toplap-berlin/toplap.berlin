@@ -15,8 +15,8 @@ const styles = css`
   }
 
   body {
-    background-color: #EFF1F3;
-    color: #292828;
+    background-color: #292828;
+    color: #fefefe;
     overflow: hidden;
   }
 
