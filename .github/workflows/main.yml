@@ -12,9 +12,9 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@master
       - name: Install Dependencies
-        run: yarn && npm i nps -g
+        run: yarn
       - name: Build
-        run: nps build.gatsby
+        run: npx gatsby build
       - name: Archive Production Artifact
         uses: actions/upload-artifact@master
         with:
