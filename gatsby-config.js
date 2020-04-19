@@ -39,12 +39,12 @@ module.exports = {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'TopLap Berlin',
-        short_name: 'toplap-ber',
+        short_name: 'toplapBerlin',
         start_url: '/',
         background_color: '#000000',
         theme_color: '#6ac6e8',
         display: 'minimal-ui',
-        icon: 'src/assets/logo-open-sorcerers.png' // This path is relative to the root of the site
+        icon: 'src/assets/toplap_black_bg.png' // This path is relative to the root of the site
       }
     },
     {
@@ -55,7 +55,6 @@ module.exports = {
         }
       }
     },
-
     {
       resolve: `gatsby-plugin-alias-imports`,
       options: {

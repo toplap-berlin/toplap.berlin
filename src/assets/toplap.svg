@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   height="500"
+   width="1000">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="toplap">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     style="fill:#FFFFFF"
+     d="m 389.00548,80.489755 c -23.14927,0 -41.78503,18.63885 -41.78503,41.788115 l 0,138.41271 c 0,23.14929 18.63576,41.78813 41.78503,41.78813 l 221.98896,0 c 23.14927,0 41.78503,-18.63884 41.78503,-41.78813 l 0,-138.41271 c 0,-23.149265 -18.63576,-41.788115 -41.78503,-41.788115 l -221.98896,0 z m 33.95168,47.009315 154.0856,0 0,26.11835 -154.0856,0 0,-26.11835 z m 0,49.62145 154.0856,0 0,26.11526 -154.0856,0 0,-26.11526 z m 0,49.62147 154.0856,0 0,26.11526 -154.0856,0 0,-26.11526 z"
+      />
+  <circle
+     style="fill:#FFFFFF"
+
+     cx="288.09293"
+     cy="197.00032"
+     r="34.163654" />
+  <circle
+     style="fill:#FFFFFF"
+
+     cx="183.29361"
+     cy="197.00032"
+     r="34.163654" />
+  <circle
+     style="fill:#FFFFFF"
+
+     cx="78.494301"
+     cy="197.00032"
+     r="34.163654" />
+  <circle
+     style="fill:#FFFFFF"
+
+     cx="921.50568"
+     cy="198.84691"
+     r="34.163654" />
+  <circle
+     style="fill:#FFFFFF"
+
+     cx="816.70636"
+     cy="198.84691"
+     r="34.163654" />
+  <circle
+     style="fill:#FFFFFF"
+
+     cx="711.90698"
+     cy="198.84691"
+     r="34.163654" />
+  <ellipse
+     style="fill:#FFFFFF"
+
+     cx="552.1687"
+     cy="365.76434"
+     rx="0"
+     ry="22.132202" />
+  <path
+     style="fill:#FFFFFF"
+     d="m 384.65217,312.43396 c -21.05504,0 -44.80429,13.99336 -53.24945,31.3766 l -21.53011,44.32308 c -8.44514,17.38324 1.70704,31.37661 22.76209,31.37661 l 334.73103,0 c 21.05505,0 31.20723,-13.99337 22.76209,-31.37661 L 668.5977,343.81056 c -8.44515,-17.38324 -32.1944,-31.3766 -53.24944,-31.3766 z" />
+</svg>
